@@ -1,0 +1,21 @@
+.bg-pink-2 {
+    background-color: $pinkFooter;
+    color:$white;
+
+    a.text-pink-100 {
+        color:$pinkPalido;
+        &:hover {
+            background-color: $pinkHover;
+            color:$pinkPalido;
+        }
+    }    
+}
+
+footer {
+    li a.link-pink {
+        color:$pink;
+        &:hover {
+            color:$pinkHover;
+        }
+    }
+}

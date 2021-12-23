@@ -1,14 +1,306 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Be-Prices Simulador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO METAS -->
+    <meta name="description" content="Destellos de México, tienda en línea de ropa, zapatos, accesorios para mujer y hombre" >
+    <meta name="keywords" content="playeras, zapatos, bolsas, mujer, hombre, méxico, cdmx, tshirt, sudaderas, chamarras, mexico, moda, mexicana" >
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
+    
+    <title>Aparel Moda Mexicana » Inicio</title>
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Be-Prices Simulador</h1>
-    <h2>Saca tu presupuesto mensual basado en tus hábitos de compra.</h2>
+    <!-- inicia HEADER -->
+    <header>
+        <!-- Inicia BARRA DE PROMOCIONES -->
+        <div id="barra__anuncio" class="py-3 bg-pink">
+            <div class="container">
+                <div class="row">
+                <div class="col-12">
+                    <!-- Text -->
+                    <div class="text-center">
+                        <span>⚡️ ENVÍO GRATIS DESDE <span class="barra__anuncio__moneda">MXN$</span><span class="barra__anuncio__monto">800</span> ⚡️</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div><!-- Finaliza BARRA DE PROMOCIONES -->
+
+        <!-- Inicia MENÚ DE NAVEGACIÓN -->
+        <nav class="header__menu navbar navbar-expand-xl navbar-dark bg-black">
+            <div class="container">
+                <a class=" header__logo navbar-brand d-xl-none" href="index.html">
+                    <img src="images/Aparel-Moda-Mexicana-Logo-Blanco.svg" alt="Aparel Logo"></a>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo2" aria-controls="navbarTogglerDemo2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo2">
+                    <ul class="navbar-nav mx-2 mb-2 mb-xl-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/playeras.html">Playeras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/zapatos.html">Zapatos</a>
+                        </li>
+                    </ul>
+
+                    <a class="navbar-brand mx-4 d-none d-xl-block header__logo" href="index.html">
+                        <img src="images/Aparel-Moda-Mexicana-Logo-Blanco.svg" alt="Aparel Logo">
+                    </a>
+
+                    <ul class="navbar-nav mx-2 mb-2 mb-xl-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="pages/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-pink" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Inicia CAROUSEL -->
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade mb-4" data-bs-ride="carousel" data-bs-interval="200000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/cover-1.jpg" class="w-100 d-block" alt="Patricio Tenis">
+                    <div class="container d-flex flex-column">
+                        <div class="row align-items-center py-12">
+                            <div class="carousel-caption position-right col-6 col-md-6 col-lg-5 col-xl-4 offset-md-1">
+                                <h2>Tenis Patricio</h2>
+                                <h3 class="display-1">-50%</h3>
+                                <h5 class="mt-n4 mb-8">con el código NO19NA*</h5>
+                                <a class="btn btn-pink" href="#">¡Comprar ahora!   <i class="fa fa-arrow-right ml-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/cover-2.jpg" class="w-100 d-block" alt="Colección de Invierno">
+                    <div class="container d-flex flex-column">
+                        <div class="row align-items-center py-12">
+                            <div class="carousel-caption position-left col-6 col-md-6 col-lg-5 col-xl-4 offset-md-n1">
+                                <h2>Colección de Invierno</h2>
+                                <p>Te invitamos a ver nuestros productos de esta próxima temporada fría, no te los puedes perder.</p>
+                                <h5 class="mt-n4 mb-8">con el código NO19NA*</h5>
+                                <a class="btn btn-pink" href="#">¡Comprar ahora!<i class="fa fa-arrow-right ml-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover-3.jpg" class="w-100 d-block" alt="Fin de Año">
+                    <div class="container d-flex flex-column">
+                        <div class="row align-items-center justify-content-end py-12">
+                            <div class="carousel-caption position-right col-6 col-md-6 col-lg-5 col-xl-4 offset-md-1">
+                                <h2>Fin de Año</h2>
+                                <h3 class="display-1">-30%</h3>
+                                <h5 class="mt-n4 mb-8">con el código GA21ME*</h5>
+                                <a class="btn btn-pink" href="#">¡Comprar ahora!   <i class="fa fa-arrow-right ml-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header><!-- Finaliza HEADER -->
+
+    <!-- Inicia MAIN DE CONTENIDO -->
+    <div class="container">
+        <div class="row">
+            <main class="main__contenido col-md-9 col-sm-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="animate__animated animate__fadeInDown text-center">Bienvenidos a Aparel Moda Mexicana</h1>
+                            <h2 class="text-center">Los más vendidos - Ya estamos en Git</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="main__producto row align-items-center">
+                        <div class="col-md-4 col-sm-12 mb-4">
+                            <div class="main__producto__box card text-center">
+                                <img src="images/DDM-Foto-Plecada-FB-2.jpg" class="main__producto__imagen grow card-img-top" alt="Hate and Love">
+                                <div class="main__producto__descripcion card-body">
+                                    <h5 class="card-title"><a href="#">Cihuatl, fuerza femenil</a></h5>
+                                    <p class="card-text">Con un toque más tornasol y vivos rojos metalizados, le damos un toque mas sensual y luminoso que podrás lucir con un atuendo casual o un día en la oficina, resaltando tu belleza.</p>
+                                    <a href="#" class="btn btn-pink">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 mb-4">
+                            <div class="main__producto__box card text-center">
+                                <img src="images/DDM-Foto-Plecada-FB-6.jpg" class="main__producto__imagen grow card-img-top" alt="Hate and Love">
+                                <div class="main__producto__descripcion card-body">
+                                    <h5 class="card-title"><a href="#">Jaguar, es ideal para ti</a></h5>
+                                    <p class="card-text">Guerrero jaguar, también Tezcatlipoca (Dios del cielo nocturno), simboliza una misteriosa oscuridad, valentía, poder y velocidad como lo es el sigiloso felino.</p>
+                                    <a href="#" class="btn btn-pink">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 mb-4">
+                            <div class="main__producto__box card text-center">
+                                <img src="images/DDM-Foto-Plecada-FB-8.jpg" class="main__producto__imagen grow card-img-top" alt="La Doña, belleza inigualable">
+                                <div class="main__producto__descripcion card-body">
+                                    <h5 class="card-title"><a href="#">La Doña, belleza inigualable</a></h5>
+                                    <p class="card-text">Ícono del cine mexicano por su belleza, talento e imponente presencia. Con una de sus famosas frases nos recuerda su vanidosa y altiva personalidad.</p>
+                                    <a href="#" class="btn btn-pink">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row mt-1">
+                        <table class="table table-dark table-striped table-hover">
+                            <tr> <!-- fila 1 -->
+                                <th scope="row">Producto</th> <!-- col 1 -->
+                                <td>Playeras</td> <!-- col 2 -->
+                                <td>Zapatos</td> <!-- col 3 -->
+                            </tr>
+                            <tr> <!-- fila 2 -->
+                                <th scope="row">Información Técnica</th> <!-- col 1 -->
+                                <td>Telas fabricadas en México.</td> <!-- col 2 -->
+                                <td>100% Algodón.</td> <!-- col 3 -->
+                            </tr>
+                            <tr> <!-- fila 3 -->
+                                <th scope="row">Características</th> <!-- col 1 -->
+                                <td>Hechos a mano.</td> <!-- col 2 -->
+                                <td>Materiales de alta calidad.</td> <!-- col 3 -->
+                            </tr>
+                            <tr>
+                                <th scope="row">Beneficios</th> <!-- col 1 -->
+                                <td>Amigable con el medio ambiente.</td> <!-- col 2 -->
+                                <td>Proveemos de trabajo a artesanos mexicanos</td> <!-- col 3 -->
+                            </tr>
+                            <tr>
+                                <th scope="row">Recomendaciones</th> <!-- col 1 -->
+                                <td>Nuestros productos los usan marcas reconocidas como Versace.</td> <!-- col 2 -->
+                                <td>Productos de alta calidad a precios accesibles.</td> <!-- col 3 -->
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </main><!-- Finaliza MAIN DE CONTENIDO -->
+            
+            <!-- Inicia SIDEBAR DERECHO -->
+            <aside class="aside__anuncio col-md-3 col-sm-12 mb-4">
+                <div class="container sticky-top">
+                    <div class="row">
+                        <div class="col">
+                            <img src="images/catalogo-baner.jpg" class="img-fluid" alt="Catálogo">
+                        </div>
+                    </div>
+                </div>
+            </aside><!-- Finaliza SIDEBAR DERECHO -->
+        </div>
+    </div>
+
+    <!-- inicia FOOTER -->
+    <div style="background-image: url(images/pattern-2.svg); background-size: cover;" class="container-fluid bg-pink-2">
+        <div class="container">
+            <footer class="pt-5">
+                <div class="row">
+                    <div class="col-footer col-md-2 col-sm-12">
+                        <h5>Menú Principal</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-pink-100">Inicio</a></li>
+                            <li class="nav-item mb-2"><a href="pages/playeras.html" class="nav-link p-0 text-pink-100">Playeras</a></li>
+                            <li class="nav-item mb-2"><a href="pages/zapatos.html" class="nav-link p-0 text-pink-100">Zapatos</a></li>
+                            <li class="nav-item mb-2"><a href="pages/blog.html" class="nav-link p-0 text-pink-100">Blog</a></li>
+                            <li class="nav-item mb-2"><a href="pages/contacto.html" class="nav-link p-0 text-pink-100">Contacto</a></li>
+                        </ul>
+                    </div>
+                
+                    <div class="col-footer col-md-2 col-sm-12">
+                        <h5>Soporte</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="pages/contacto.html" class="nav-link p-0 text-pink-100">Contacto</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-pink-100">Aviso de Privacidad</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-pink-100">Términos y Condiciones</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-pink-100">Preguntas y Respuestas</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-pink-100">Sobre Nosotros</a></li>
+                        </ul>
+                    </div>
+                
+                    <div class="col-footer col-md-2 col-sm-12">
+                        <h5>Contáctanos</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">¡Nos gusta saber de tí!</li>
+                            <li class="nav-item mb-2">Escríbenos a</li>
+                            <li class="nav-item mb-2"><a href="mailto:hola@aparelmodamexicana.mx"class="nav-link p-0 text-pink-100">hola@aparelmodamexicana.mx</a></li>
+                            <li class="nav-item mb-2">o llama al 55 59222222</li>
+                            <li class="nav-item mb-2">y con gusto te atenderemos.</li>
+                        </ul>
+                    </div>
+                
+                    <div id="suscribe" class="col-footer col-md-5 col-sm-12 offset-1">
+                        <form>
+                            <h5>Suscríbete a nuestro boletín</h5>
+                            <p>Subscríbete para recibir notificaciones, accesos exclusivos y más.</p>
+                            <div class="d-flex w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Correo Electrónico</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Correo Electrónico">
+                                <button class="btn btn-pink" type="button">Suscríbete</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            
+                <div class="d-flex justify-content-between py-2 mt-3 border-top">
+                    <p>Aparel Moda Mexicana Todos los Derechos Reservados &copy; 2021.
+                        Las imágenes utilizadas en esta página son solamente ilustrativas, tienen su propietario correspondiente de cada una.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-pink" href="https://www.instagram.com/destellosdemexico/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                        <li class="ms-3"><a class="link-pink" href="https://www.facebook.com/DestellosdeMexico/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div><!-- Finaliza FOOTER -->
+
     <script src="js/funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 </body>
 </html>

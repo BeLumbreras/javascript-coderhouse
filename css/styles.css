@@ -1,0 +1,356 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+* a {
+  text-decoration: none;
+}
+
+.btn-pink {
+  color: #FFF;
+  background-color: #FE006F;
+  border-color: #FE006F;
+}
+
+.btn-pink:hover {
+  color: #FFF;
+  background-color: #8F2447;
+  border-color: #8F2447;
+}
+
+.btn-outline-pink {
+  color: #FE006F;
+  border-color: #FE006F;
+}
+
+.btn-outline-pink:hover {
+  color: #FFF;
+  background-color: #FE006F;
+}
+
+/* HEADER */
+/* BARRA SUPERIOR ANUNCIO */
+/* SLIDES DE PORTADA */
+/* IMAGEN DE ENCABEZADO EN CADA PÁGINA */
+.bg-pink {
+  background-color: #FE006F;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+header #barra__anuncio {
+  color: #FFF;
+}
+
+header #barra__anuncio .barra__anuncio__moneda,
+header #barra__anuncio .barra__anuncio__monto {
+  color: #cffe00;
+  font-size: 1.5em;
+}
+
+header .header__logo img {
+  width: 4em;
+  height: auto;
+}
+
+header .header__logo img:hover {
+  transform: rotate(90deg);
+}
+
+header .header__menu ul li a.nav-link {
+  color: #FFF;
+  padding: 3px 0.5em;
+  border-radius: .25rem;
+  border: 1px solid #FE006F;
+  margin: 0 0.5em;
+}
+
+header .header__menu ul li a.nav-link:hover {
+  color: #FFF;
+  background-color: #8F2447;
+}
+
+header .carousel-caption {
+  bottom: 10rem;
+}
+
+header .carousel-caption h2 {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+header .carousel-caption h3.display-1 {
+  color: #8F2447;
+  font-size: 6.875rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+header .carousel-caption a.btn {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+}
+
+header .carousel-caption.position-right {
+  left: 45%;
+}
+
+header .carousel-caption.position-left {
+  left: 15%;
+}
+
+header .headerDimensiones, header .header__slide__playeras, header .header__slide__zapatos, header .header__slide__blog, header .header__slide__contacto {
+  height: 20em;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+}
+
+header .header__slide__playeras {
+  background-image: url("../images/playeras-cover.jpg");
+}
+
+header .header__slide__zapatos {
+  background-image: url("../images/zapatos-cover.jpg");
+}
+
+header .header__slide__blog {
+  background-image: url("../images/blog-cover.jpg");
+}
+
+header .header__slide__contacto {
+  background-image: url("../images/contacto-cover.jpg");
+}
+
+/* CONTENIDO */
+/* PRODUCTOS*/
+.card {
+  border: 0;
+}
+
+.card .card-badge {
+  position: absolute;
+  top: 1.25rem;
+  z-index: 1;
+}
+
+.card .badge-white {
+  background-color: #fff;
+  color: #111;
+}
+
+.card .badge {
+  display: inline-block;
+  padding: .35em .65em;
+  font-size: .75em;
+  font-weight: 700;
+  letter-spacing: .02em;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0;
+}
+
+.texto__titular, .main__contenido h1, .main__contenido h2, .main__contenido h5 a {
+  font-family: "Roboto Slab", serif;
+  padding: 0.25em;
+}
+
+.texto__cuerpo {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main__contenido {
+  margin-top: 2.5em;
+}
+
+.main__contenido h1 {
+  color: #EC172F;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.main__contenido h2 {
+  color: #000;
+}
+
+.main__contenido h5 a {
+  color: #EC172F;
+  font-weight: 600;
+}
+
+.main__contenido h5 a:hover {
+  background-color: #8F2447;
+  color: #FFF;
+}
+
+.main__contenido .main__producto .main__producto__box {
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #000;
+}
+
+.main__contenido .main__producto .main__producto__box .main__producto__descripcion {
+  padding-top: 1em;
+}
+
+/*TABLA DE PRODUCTOS*/
+.table th {
+  border-right: 1px solid #FFF;
+  text-align: center;
+}
+
+/* ASIDE */
+.aside__anuncio img {
+  border: 0.5em solid #FE006F;
+}
+
+.sticky-top {
+  top: 0.5em;
+}
+
+/* FOOTER */
+.bg-pink-2 {
+  background-color: #580328;
+  color: #FFF;
+}
+
+.bg-pink-2 a.text-pink-100 {
+  color: #bd9aa8;
+}
+
+.bg-pink-2 a.text-pink-100:hover {
+  background-color: #8F2447;
+  color: #bd9aa8;
+}
+
+footer li a.link-pink {
+  color: #FE006F;
+}
+
+footer li a.link-pink:hover {
+  color: #8F2447;
+}
+
+/* ANIMACIONES */
+.skew {
+  animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(2);
+}
+
+/* BOOTSTRAP CSS MY RULES */
+@media (min-width: 1200px) {
+  .navbar-expand-xl .navbar-collapse {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 567px) {
+  header .carousel-caption {
+    bottom: 1rem;
+  }
+  header .carousel-caption h2 {
+    font-size: 1.2rem;
+    line-height: 0.7;
+  }
+  header .carousel-caption h3.display-1 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 0.7;
+  }
+  header .carousel-caption h5 {
+    font-size: 0.7rem;
+    line-height: 0.7;
+  }
+  header .carousel-caption p {
+    display: none;
+  }
+  header .carousel-caption a.btn-pink {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  header .carousel-caption.position-right {
+    left: 43%;
+  }
+  header .carousel-caption.position-left {
+    left: 10%;
+  }
+  header .headerDimensiones, header .header__slide__playeras, header .header__slide__zapatos, header .header__slide__blog, header .header__slide__contacto {
+    height: 7.5em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+  }
+  .main__contenido {
+    margin-top: 0.5em;
+  }
+  #suscribe {
+    margin-left: 0;
+  }
+  .col-footer {
+    padding-bottom: 1em;
+  }
+}
+
+@media only screen and (min-width: 567px) and (max-width: 960px) {
+  header .carousel-caption {
+    bottom: 4.5rem;
+  }
+  header .carousel-caption h2 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  header .carousel-caption h5 {
+    font-size: 1.2rem;
+  }
+  header .carousel-caption h3.display-1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+  }
+  header .carousel-caption a.btn-pink {
+    font-size: 1.2rem;
+  }
+  header .carousel-caption.position-right {
+    left: 37%;
+  }
+  header .carousel-caption.position-left {
+    left: 6%;
+  }
+  .main__contenido {
+    margin-top: 0.5em;
+  }
+  .col-footer {
+    padding-bottom: 1em;
+  }
+  #suscribe {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,87 @@
+@media (min-width: 1200px) {   
+    .navbar-expand-xl .navbar-collapse {
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 567px) {
+
+    header {
+        .carousel-caption {
+            bottom: 1rem;
+            
+            h2 {
+                font-size: 1.2rem;
+                line-height: 0.7;
+            }        
+            h3.display-1 {
+                font-size: 1.7rem;
+                font-weight: 500;
+                line-height: 0.7;
+            }
+            h5 {
+                font-size: 0.7rem;
+                line-height: 0.7;
+            }
+            p {
+                display:none;
+            }
+
+            a.btn-pink {
+                font-size: 0.7rem;
+                padding:0.5rem;
+            }
+            &.position-right {left:43%;}
+            &.position-left {left: 10%;}
+        }
+        .headerDimensiones {
+            height: $tenPixel*15;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color:$black;
+        }
+    }
+        
+    .main__contenido {
+        margin-top:$tenPixel;
+    }
+    #suscribe {
+        margin-left: 0;
+    }    
+    .col-footer {
+        padding-bottom:1em;
+    }
+}
+@media only screen and (min-width: 567px) and (max-width: 960px) {
+
+    header {
+        .carousel-caption {
+            bottom: 4.5rem;
+            h2 {
+                font-size: 2rem;
+                line-height: 1;
+            }
+            h5 {
+                font-size: 1.2rem;
+            }         
+            h3.display-1 {
+                font-size: 4.5rem;
+                font-weight: 500;
+            }
+            a.btn-pink {
+                font-size: 1.2rem;
+            }        
+            &.position-right {left:37%;}
+            &.position-left {left: 6%;}
+        }
+    } 
+        .main__contenido {
+            margin-top:$tenPixel;
+        }
+        .col-footer {
+            padding-bottom:1em;
+        }
+        #suscribe {
+            margin-left: 0;
+        }
+}
